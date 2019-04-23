@@ -1,0 +1,34 @@
+.card {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 1rem  30px;
+  background: unset;
+  border-color: black;
+  border: 0;
+  text-align: left;
+}
+
+.card > .img-container {
+  border: 10px solid black;
+  border-radius: 30px;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background: radial-gradient(#c2b2b2, #0f0f0f);
+}
+
+.card > .img-container > img {
+  width: 80%;
+}
+
+.card > .img-container:hover {
+  cursor: pointer;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+/*# sourceMappingURL=style.css.map */

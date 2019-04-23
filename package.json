@@ -1,0 +1,28 @@
+{
+  "name": "ReactClickyGame",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ccrs2006.github.io/Clicky-game-react",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gh-pages": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-font-face": "^0.2.1",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

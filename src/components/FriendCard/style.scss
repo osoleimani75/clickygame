@@ -1,0 +1,31 @@
+.card {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 1rem  30px ;
+    background: unset;
+    border-color: black;
+    border:0;
+    text-align: left;
+  }
+  
+  .card > .img-container {
+    border: 10px solid rgb(0,0,0);
+    border-radius: 30px;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    filter: grayscale(100%);
+    background: radial-gradient(rgb(194, 178, 178), rgb(15, 15, 15));
+  }
+  
+  .card > .img-container > img {
+    width: 80%
+  }
+  
+  .card > .img-container:hover {
+      cursor: pointer;
+    filter: grayscale(0%);
+    transition: all .3s;
+  }
+  

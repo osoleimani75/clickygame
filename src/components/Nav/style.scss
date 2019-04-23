@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Prosto+One');
+
+
+.navbar {
+    min-height: 80px;
+    margin: 0 !important;
+    position: fixed;
+    width: 100%;
+    font-size: 1.4em;
+    z-index: 99;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    background: rgb(30,30,30);
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block; 
+    padding: 10px 0;
+    font-family: 'Prosto One', cursive;
+    font-size: .9em;
+    width: 33%;
+    text-align: center;
+}
+
+.brand {
+    font-family: 'Luckiest Guy', cursive !important;
+   font-size: 1.8em !important;
+   letter-spacing: 3px;
+   color: rgb(192, 20, 20);
+   font-weight: bold;
+}
+
+.message{
+    
+    color: rgb(110, 112, 233)
+}
