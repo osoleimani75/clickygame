@@ -2,14 +2,15 @@
   "name": "ReactClickyGame",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://osoleimani75.github.io/clickygame/",
+  "homepage": "https://osoleimani75.github.io/clickygame",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "gh-pages": "^1.1.0",
+    "gh-pages": "^1.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-font-face": "^0.2.1",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "yarn": "^1.15.2"
   },
   "scripts": {
     "predeploy": "npm run build",
